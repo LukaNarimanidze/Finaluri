@@ -4,10 +4,10 @@
     "slug": "ემოჯი-plus",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "არაფერი.პნგ",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "არარი.პნგ",
       "resizeMode": "contain",
       "backgroundColor": "#4a90e2"
     },
@@ -29,7 +29,7 @@
       ]
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "არარი.პნგ"
     },
     "plugins": [
       "expo-sensors"
