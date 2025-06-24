@@ -40,7 +40,7 @@ const HomeScreen = () => {
 
   const loadQuotes = async () => {
     try {
-      const response = await fetch('http://[2a0b:6204:1e4:8900:7c27:d64e:4dd2:4d44]:8080/mood_quotes_100_with_authors.json');
+      const response = await fetch('http://[5.178.149.238]:8080/mood_quotes_100_with_authors.json');
       const data = await response.json();
       setQuotes(data);
     } catch (error) {
